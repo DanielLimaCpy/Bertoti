@@ -1,1 +1,5 @@
-Layered Architecture Style
+Desempenho vs. Custo: Para ter um software rápido e ágil, pode ser necessário investir em hardware mais potente, o que aumenta os custos. Além disso, um projeto focado em alto desempenho pode precisar de mais gente e recursos, encarecendo ainda mais o desenvolvimento.
+
+Portabilidade vs. Funcionalidade: Fazer o software rodar em várias plataformas e dispositivos pode aumentar seu alcance. Mas, tentar incluir todas as funcionalidades desejadas pode acabar tornando o software menos portátil e limitando seu uso em alguns dispositivos.
+
+Testes vs. Tempo de Lançamento: Realizar uma bateria extensa de testes garante maior qualidade e confiabilidade do software. No entanto, isso pode atrasar o lançamento, afetando o tempo de retorno do investimento e a competitividade do produto. Lançar um software rapidamente pode resultar em bugs e falhas, enquanto testes rigorosos podem frustrar os stakeholders pelo atraso.
