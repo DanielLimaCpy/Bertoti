@@ -1,0 +1,36 @@
+Arquitetura em Camadas (Layered Architecture Style): Java EE
+
+Bom: A simplicidade da arquitetura em camadas facilita o entendimento, desenvolvimento, manutenção e depuração do código. No Java EE, a separação clara de responsabilidades entre as camadas torna tudo mais organizado e fácil de gerenciar.
+Ruim: A escalabilidade pode ser um problema, especialmente se houver muita interação entre as camadas. Em sistemas Java EE, adicionar recursos pode ser complicado em cada camada, o que pode limitar a escalabilidade vertical.
+
+Arquitetura de Pipeline (Pipeline Architecture Style): Jenkins
+
+Bom: Esta arquitetura pode reduzir os custos operacionais e acelerar o ciclo de desenvolvimento. O Jenkins, ao automatizar a integração e entrega contínuas, melhora a eficiência e reduz o custo total de desenvolvimento e manutenção.
+Ruim: A alta automação pode dificultar a tolerância a erros. Se um erro ocorrer em uma etapa do pipeline, pode afetar todo o processo de desenvolvimento e entrega, exigindo monitoramento constante e intervenções cuidadosas.
+
+Arquitetura de Microkernel (Microkernel Architecture Style): MINIX
+
+Bom: A simplicidade e modularidade desta arquitetura podem reduzir os custos totais. Manter o núcleo mínimo e mover funcionalidades para processos de usuário facilita o desenvolvimento, manutenção e escalabilidade do sistema.
+Ruim: A tolerância a erros pode ser complicada, pois distribuir funcionalidades entre processos de usuário pode tornar a coordenação difícil e afetar a estabilidade do sistema. Erros em componentes individuais precisam ser cuidadosamente gerenciados para não comprometer todo o sistema.
+
+Arquitetura Baseada em Serviços (Service-Based Architecture Style): Salesforce
+
+Bom: Facilita a implantação de novos serviços ou atualizações, pois cada serviço é independente e pode ser atualizado separadamente. No Salesforce, é fácil adicionar novos serviços sem afetar os existentes.
+Ruim: A elasticidade pode ser um desafio, pois a escala de cada serviço precisa ser gerenciada individualmente. Em sistemas de alta carga, a coordenação entre diferentes serviços para escalar pode ser complexa e requerer mais esforço.
+
+Arquitetura Orientada a Eventos (Event-Driven Architecture Style): Apache Kafka
+
+Bom: Oferece excelente desempenho ao lidar com grandes volumes de eventos. O Apache Kafka processa eventos de forma assíncrona e distribuída, destacando-se na gestão de grandes cargas de trabalho em tempo real.
+Ruim: A simplicidade pode ser comprometida, especialmente com uma lógica de negócios complexa baseada em eventos distribuídos. Gerir fluxos de eventos e garantir a entrega pode adicionar complexidade ao sistema.
+
+Arquitetura de Microsserviços (Microservices Architecture Style): Netflix
+
+Bom: A modularidade é uma vantagem-chave. Dividir a aplicação em serviços independentes facilita o desenvolvimento, manutenção e escalabilidade. A Netflix, por exemplo, usa microsserviços para encapsular funcionalidades em serviços separados, melhorando a modularidade.
+Ruim: A performance pode ser impactada devido à comunicação frequente entre serviços. A latência de rede e o overhead dessa comunicação podem afetar o desempenho global, exigindo um design cuidadoso e otimizações para minimizar esses efeitos.
+
+
+
+
+
+
+
