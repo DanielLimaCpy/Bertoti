@@ -1,0 +1,8 @@
+Escalabilidade (positivo): A escalabilidade é simplificada, pois cada microsserviço pode ser escalado de forma independente, permitindo lidar com cargas específicas de maneira mais eficiente. No entanto, se a comunicação entre microsserviços não for otimizada, pode introduzir latência e impactar a performance global do sistema.
+
+Performance (negativo): Embora a escalabilidade e modularidade sejam vantajosas, podem afetar negativamente a performance em alguns casos. A comunicação frequente entre microsserviços pode adicionar overhead e latência, prejudicando a performance geral.
+
+Modularidade (positivo): A modularidade é uma grande vantagem em arquiteturas de microsserviços. Cada funcionalidade, como cadastro de clientes, registro de entrada e saída de itens, e lembretes úteis, é tratada por um microsserviço independente. Isso facilita a manutenção e evolução isolada de cada componente.
+
+Conceito do Sistema
+O sistema é um estoque de uma loja que aluga fantasias para festas. Nele, é possível registrar os clientes, controlar a entrada e saída dos itens, e gerenciar lembretes úteis no dia a dia. Com a arquitetura de microsserviços, cada uma dessas funcionalidades é tratada de forma independente, melhorando a escalabilidade e modularidade do sistema.
